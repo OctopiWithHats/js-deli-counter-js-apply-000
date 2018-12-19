@@ -6,8 +6,8 @@ function takeANumber(katzDeliLine, name){
   //add name to katzDeliLine
   numberEntered ++
   
-  katzDeliLine.push (name)
-  return ("Welcome. You are ticket number " + katzDeliLine.length)
+  katzDeliLine.push (numberEntered)
+  return ("Welcome. You are ticket number " + numberEntered)
 }
 
 function nowServing(katzDeliLine){
