@@ -4,7 +4,7 @@ var katzDeliLine = []
 function takeANumber(katzDeliLine, name){
   //add name to katzDeliLine
   katzDeliLine.push (name)
-  return ("Welcome, " + name + ". You are number " + katzDeliLine.length + " in line.")
+  return ("Welcome. You are ticket number " + katzDeliLine.length)
 }
 
 function nowServing(katzDeliLine){
