@@ -27,9 +27,11 @@ function nowServing(katzDeliLine){
 }
 
 //create new array for line list
- var lineList = []
+ //var lineList = []
  
  function currentLine(katzDeliLine){
+   var lineList = []
+   
    let i=0
    while (i<katzDeliLine.length){
      lineList.push(" " + [i+1] + ". " + katzDeliLine[i])
