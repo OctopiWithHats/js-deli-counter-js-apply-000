@@ -9,10 +9,13 @@ function takeANumber(katzDeliLine, name){
 
 function nowServing(katzDeliLine){
   let i=0
+ 
+ /*
   //increment line number
   while (i<katzDeliLine.length){
     i++
   }
+  */
   
   //set condition for empty line
   if (katzDeliLine.length === 0){
